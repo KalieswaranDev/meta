@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/meta/static/css/main.aa74a6a4.css",
+    "main.js": "/meta/static/js/main.16d372b8.js",
+    "static/js/453.542bd69f.chunk.js": "/meta/static/js/453.542bd69f.chunk.js",
+    "static/media/Banner02.mp4": "/meta/static/media/Banner02.da1ebb45f372cc8fdd9d.mp4",
+    "static/media/Banner.mp4": "/meta/static/media/Banner.adc4b1a538e5060c8478.mp4",
+    "static/media/Meeting.jpg": "/meta/static/media/Meeting.f4e0d92b96b5b6812b1a.jpg",
+    "static/media/Content_image.jpg": "/meta/static/media/Content_image.c5805cbc59304e4d5471.jpg",
+    "static/media/Slide01.jpg": "/meta/static/media/Slide01.3b060bb541f3065762b5.jpg",
+    "static/media/New.jpg": "/meta/static/media/New.1504e363a9b6d090208e.jpg",
+    "static/media/slide02.jpg": "/meta/static/media/slide02.3fe822b6f8657bff41bc.jpg",
+    "static/media/slide03.jpg": "/meta/static/media/slide03.9763151f95f7492a0774.jpg",
+    "static/media/meta.png": "/meta/static/media/meta.b1cf8b11dd8b0c511c77.png",
+    "static/media/twitter.png": "/meta/static/media/twitter.e58e4997ef85cbd7054c.png",
+    "static/media/instagram.png": "/meta/static/media/instagram.56d3c2ef9b43e98875c0.png",
+    "static/media/nike.png": "/meta/static/media/nike.3bcfca987c666e4e6d61.png",
+    "static/media/tik-tok.png": "/meta/static/media/tik-tok.8bb71cc6c1bd4e58530b.png",
+    "index.html": "/meta/index.html",
+    "main.aa74a6a4.css.map": "/meta/static/css/main.aa74a6a4.css.map",
+    "main.16d372b8.js.map": "/meta/static/js/main.16d372b8.js.map",
+    "453.542bd69f.chunk.js.map": "/meta/static/js/453.542bd69f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa74a6a4.css",
+    "static/js/main.16d372b8.js"
+  ]
+}
