@@ -43,12 +43,6 @@
   font-weight: 400;
 }
 
-.main-heading {
-  font-size: 110px !important;
-  font-weight: bold;
-  margin: 0;
-  line-height: 1.1;
-}
 
 .sub-heading {
   font-size: 25px;
@@ -144,7 +138,17 @@ a {
     opacity: 1;
   }
 }
+@media screen and (max-width: 768px)
+{
 
+  .main-heading {
+    font-size: 110px !important;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.1;
+  }
+  
+}
 /* === Responsive Design === */
 @media screen and (max-width: 768px) {
   .nav-menu {
@@ -197,7 +201,9 @@ a {
 @media (max-width: 768px) {
   .main-heading {
     font-size: 30px !important;
-    
+    font-weight: bold;
+      margin: 0;
+      line-height: 1.1;
   }
 
 
