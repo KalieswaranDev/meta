@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/meta/static/css/main.33052cae.css",
-    "main.js": "/meta/static/js/main.7e9c421a.js",
+    "main.css": "/meta/static/css/main.f6c52c84.css",
+    "main.js": "/meta/static/js/main.4d0f9afa.js",
     "static/js/453.542bd69f.chunk.js": "/meta/static/js/453.542bd69f.chunk.js",
+    "static/media/Banner.mp4": "/meta/static/media/Banner.946db42b39fb39a213ee.mp4",
     "static/media/Banner02.mp4": "/meta/static/media/Banner02.da1ebb45f372cc8fdd9d.mp4",
-    "static/media/Banner.mp4": "/meta/static/media/Banner.adc4b1a538e5060c8478.mp4",
-    "static/media/Meeting.jpg": "/meta/static/media/Meeting.f4e0d92b96b5b6812b1a.jpg",
-    "static/media/Content_image.jpg": "/meta/static/media/Content_image.c5805cbc59304e4d5471.jpg",
-    "static/media/Slide01.jpg": "/meta/static/media/Slide01.3b060bb541f3065762b5.jpg",
+    "static/media/slide02.jpg": "/meta/static/media/slide02.28046354e8aef072f551.jpg",
+    "static/media/Slide01.jpg": "/meta/static/media/Slide01.91eb4c0e2401f762554a.jpg",
     "static/media/New.jpg": "/meta/static/media/New.1504e363a9b6d090208e.jpg",
-    "static/media/slide02.jpg": "/meta/static/media/slide02.3fe822b6f8657bff41bc.jpg",
     "static/media/slide03.jpg": "/meta/static/media/slide03.9763151f95f7492a0774.jpg",
+    "static/media/Content_image.jpg": "/meta/static/media/Content_image.3aad473c021f789de712.jpg",
     "static/media/meta.png": "/meta/static/media/meta.b1cf8b11dd8b0c511c77.png",
+    "static/media/Meeting.jpg": "/meta/static/media/Meeting.a9447d744d5825128d75.jpg",
     "static/media/twitter.png": "/meta/static/media/twitter.e58e4997ef85cbd7054c.png",
     "static/media/instagram.png": "/meta/static/media/instagram.56d3c2ef9b43e98875c0.png",
     "static/media/nike.png": "/meta/static/media/nike.3bcfca987c666e4e6d61.png",
     "static/media/tik-tok.png": "/meta/static/media/tik-tok.8bb71cc6c1bd4e58530b.png",
     "index.html": "/meta/index.html",
-    "main.33052cae.css.map": "/meta/static/css/main.33052cae.css.map",
-    "main.7e9c421a.js.map": "/meta/static/js/main.7e9c421a.js.map",
+    "main.f6c52c84.css.map": "/meta/static/css/main.f6c52c84.css.map",
+    "main.4d0f9afa.js.map": "/meta/static/js/main.4d0f9afa.js.map",
     "453.542bd69f.chunk.js.map": "/meta/static/js/453.542bd69f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33052cae.css",
-    "static/js/main.7e9c421a.js"
+    "static/css/main.f6c52c84.css",
+    "static/js/main.4d0f9afa.js"
   ]
 }
