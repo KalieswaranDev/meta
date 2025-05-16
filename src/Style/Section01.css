@@ -194,3 +194,11 @@ a {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 30px !important;
+    
+  }
+
+
+}

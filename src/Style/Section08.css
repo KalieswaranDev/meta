@@ -133,6 +133,9 @@
   .hero-container {
     padding: 2rem 1rem;
   }
+  .hero-image-wrapper{
+    display: none;
+  }
 
   .headline {
     font-size: 2rem;

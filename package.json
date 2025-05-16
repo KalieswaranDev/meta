@@ -2,7 +2,7 @@
   "name": "metaverse",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kalieswarandev.github.io/metaverse.web",
+  "homepage": "https://kalieswarandev.github.io/meta",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -33,6 +33,7 @@
       "not dead",
       "not op_mini all"
     ],
+   
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
