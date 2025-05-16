@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/meta/static/css/main.53d2860f.css",
+    "main.css": "/meta/static/css/main.33052cae.css",
     "main.js": "/meta/static/js/main.7e9c421a.js",
     "static/js/453.542bd69f.chunk.js": "/meta/static/js/453.542bd69f.chunk.js",
     "static/media/Banner02.mp4": "/meta/static/media/Banner02.da1ebb45f372cc8fdd9d.mp4",
@@ -17,12 +17,12 @@
     "static/media/nike.png": "/meta/static/media/nike.3bcfca987c666e4e6d61.png",
     "static/media/tik-tok.png": "/meta/static/media/tik-tok.8bb71cc6c1bd4e58530b.png",
     "index.html": "/meta/index.html",
-    "main.53d2860f.css.map": "/meta/static/css/main.53d2860f.css.map",
+    "main.33052cae.css.map": "/meta/static/css/main.33052cae.css.map",
     "main.7e9c421a.js.map": "/meta/static/js/main.7e9c421a.js.map",
     "453.542bd69f.chunk.js.map": "/meta/static/js/453.542bd69f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53d2860f.css",
+    "static/css/main.33052cae.css",
     "static/js/main.7e9c421a.js"
   ]
 }
