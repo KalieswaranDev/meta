@@ -1,0 +1,133 @@
+/* Container to enable vertical scroll */
+.container {
+  height: 400vh; /* 4 slides x viewport height */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* Sticky slides full screen */
+.sticky-slide {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+  /* Add a subtle scale zoom for dynamic effect */
+  will-change: transform;
+}
+
+/* Dark overlay for better text contrast */
+.sticky-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Background images */
+.slide1 {
+  background-image: url('../Asset/Slide01.jpg');
+}
+
+.slide2 {
+  background-image: url('../Asset/slide02.jpg');
+}
+
+.slide3 {
+  background-image: url('../Asset/slide03.jpg');
+}
+
+.slide4 {
+  background-image: url('../Asset/Slide01.jpg');
+}
+
+/* Content box with layering above overlay */
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  color: white;
+  animation: fadeUp 1s ease-out forwards;
+  transform: translateY(30px);
+  opacity: 0;
+  animation-delay: 0.3s;
+  user-select: none;
+}
+
+/* Fade-up animation */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heading style */
+.content h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  color: #ffffff; /* soft purple accent */
+}
+
+/* Paragraph style */
+.content p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #ddd;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive styling */
+@media (max-width: 1024px) {
+  .content h1 {
+    font-size: 4.5rem;
+  }
+
+  .content p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .content h1 {
+    font-size: 3.5rem;
+  }
+
+  .content p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 2rem 1rem;
+  }
+
+  .content h1 {
+    font-size: 2.4rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+}

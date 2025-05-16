@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&display=swap');
+
+.ai-section {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #f0f0f0;
+  font-family: 'Signika', sans-serif;
+  padding: 60px 5%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.ai-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ai-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1.2;
+  max-width: 700px;
+  color: #fff;
+  text-align: left;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.highlight {
+  color: #ffffff; /* warm orange */
+  font-weight: 800;
+}
+
+.ai-row {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ai-image {
+  flex: 1;
+  min-width: 320px;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  background: #111;
+  transition: transform 0.3s ease;
+}
+
+.ai-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.ai-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.6);
+}
+
+.ai-text {
+  flex: 1;
+  min-width: 320px;
+  max-width: 600px;
+  color: #ddd;
+  text-align: left;
+}
+
+.ai-text h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.ai-text p {
+  font-size: 1.15rem;
+  line-height: 1.65;
+  margin-bottom: 20px;
+  color: #eee;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.fade-in:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .ai-heading {
+    font-size: 2.8rem;
+    max-width: 100%;
+  }
+
+  .ai-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .ai-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ai-section {
+    padding: 40px 3%;
+  }
+
+  .ai-row {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .ai-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .ai-text h2 {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap');
+
+.footer {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #eee;
+  padding: 50px 20px 30px;
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  box-shadow: inset 0 5px 20px rgba(255, 255, 255, 0.2);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  user-select: none;
+}
+
+.logo-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.8px #ffffff;
+ 
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+/* Subtle glowing effect */
+
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 90px;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.footer-nav a {
+  color: #bbb;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #030303;
+  transition: width 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #222222;
+}
+
+.footer-nav a:hover::after {
+  width: 100%;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: #888;
+  user-select: none;
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  .footer-nav {
+    gap: 40px;
+    font-size: 1rem;
+  }
+
+  .footer-copy {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-nav {
+    gap: 25px;
+    font-size: 0.9rem;
+  }
+}
