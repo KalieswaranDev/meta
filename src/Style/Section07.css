@@ -24,7 +24,7 @@
   max-width: 700px;
   color: #fff;
   text-align: left;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+ 
 }
 
 .highlight {
@@ -60,7 +60,7 @@
 
 .ai-image:hover {
   transform: scale(1.05);
-  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.6);
+  
 }
 
 .ai-text {
@@ -76,7 +76,7 @@
   font-weight: 700;
   margin-bottom: 20px;
   color: #ffffff;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+  
 }
 
 .ai-text p {
@@ -84,7 +84,7 @@
   line-height: 1.65;
   margin-bottom: 20px;
   color: #eee;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
 }
 
 /* Fade-in animation */

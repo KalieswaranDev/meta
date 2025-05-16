@@ -45,8 +45,7 @@ const App = () => {
         <div className="overlay">
           {/* <div className="tagline">⚡ BUILD THE FUTURE IN THE METAVERSE</div> */}
           <h1 className="main-heading">Metaverse</h1>
-          <p className="sub-heading">Pioneering AI-Driven Virtual 
-            <br />Ecosystems</p>
+          <p className="sub-heading">Enter the Gateway to the Next Evolution <br />of the Internet</p>
         </div>
       </section>
     </div>

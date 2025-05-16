@@ -7,9 +7,9 @@ const AISection = () => {
     <section className="ai-section" id="section02">
       <div className="ai-content">
         <h1>
-          Unleash Infinite <span className="highlight">Possibilities</span>
+        Explore Limitless <span className="highlight"> Virtual Dimensions</span>
         </h1>
-        <p className="tagline">Bridging Reality and Virtuality with Next-Gen AI.</p>
+        <p className="tagline">Shaping tomorrow’s internet with decentralized intelligence and immersive technology.</p>
 
         <div className="sub-section">
           <div className="ai-image">
@@ -17,11 +17,10 @@ const AISection = () => {
           </div>
           <div className="ai-text">
             <h2>
-              We believe in a future where humans and AI co-create virtual worlds
+            We Believe in the Metaverce Future
             </h2>
             <p>
-              At MetaNova AI, we pioneer human-AI symbiosis to craft immersive, decentralized ecosystems. Our mission is to democratize metaverse creation through adaptive neural networks, enabling anyone to design AI-powered virtual realms, interact with hyper-intelligent avatars, and thrive in user-owned economies.
-            </p>
+            Metaverce represents the evolution of how humans interact, learn, and thrive in digital spaces. By merging AI with immersive 3D environments, we empower users to create, own, and live in a world shaped by collective intelligence and creativity.            </p>
             <p className="hide-mobile">
               MetaNova AI combines neural networks with blockchain to deliver intelligent, immersive virtual worlds. Our AI dynamically generates environments, while smart contracts ensure digital ownership. From lifelike avatars that learn and adapt to AI-driven tools, you can co-create a metaverse that evolves with you.
             </p>

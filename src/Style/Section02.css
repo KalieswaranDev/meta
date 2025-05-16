@@ -2,7 +2,7 @@
   background-color: #000;
   color: #fff;
   padding: 80px 10%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Signika', sans-serif;
 }
 
 .ai-content h1 {
@@ -38,7 +38,7 @@
 .ai-image img {
   width: 100%;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(162, 89, 255, 0.3);
+  /* box-shadow: 0 0 20px rgba(162, 89, 255, 0.3); */
 }
 
 .ai-text {
