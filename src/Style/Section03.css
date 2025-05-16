@@ -24,7 +24,7 @@
 .scroll-content {
   display: flex;
   gap: 60px;
-  animation: scroll-left 25s linear infinite;
+  animation: scroll-left 15s linear infinite;
 }
 
 .scroll-content:hover {
