@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meta/static/css/main.9a4c0d5c.css",
-    "main.js": "/meta/static/js/main.4d0f9afa.js",
+    "main.css": "/meta/static/css/main.0d338b4a.css",
+    "main.js": "/meta/static/js/main.4991cbcf.js",
     "static/js/453.542bd69f.chunk.js": "/meta/static/js/453.542bd69f.chunk.js",
     "static/media/Banner.mp4": "/meta/static/media/Banner.946db42b39fb39a213ee.mp4",
     "static/media/Banner02.mp4": "/meta/static/media/Banner02.da1ebb45f372cc8fdd9d.mp4",
@@ -18,12 +18,12 @@
     "static/media/nike.png": "/meta/static/media/nike.3bcfca987c666e4e6d61.png",
     "static/media/tik-tok.png": "/meta/static/media/tik-tok.8bb71cc6c1bd4e58530b.png",
     "index.html": "/meta/index.html",
-    "main.9a4c0d5c.css.map": "/meta/static/css/main.9a4c0d5c.css.map",
-    "main.4d0f9afa.js.map": "/meta/static/js/main.4d0f9afa.js.map",
+    "main.0d338b4a.css.map": "/meta/static/css/main.0d338b4a.css.map",
+    "main.4991cbcf.js.map": "/meta/static/js/main.4991cbcf.js.map",
     "453.542bd69f.chunk.js.map": "/meta/static/js/453.542bd69f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a4c0d5c.css",
-    "static/js/main.4d0f9afa.js"
+    "static/css/main.0d338b4a.css",
+    "static/js/main.4991cbcf.js"
   ]
 }
