@@ -9,7 +9,7 @@ const AIS = () => {
         <h1 className="ai-heading">
           Explore the future of{' '}
           <span className="highlight">
-          Explore the Future of Intelligence
+        Intelligence
           </span>
         </h1>
 

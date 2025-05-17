@@ -6,13 +6,16 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <h1 className="footer-logo">
-          <span className="logo-outline">METANOVA</span>
+          <span className="logo-outline">metaverce</span>
         </h1>
         <nav className="footer-nav" aria-label="Footer navigation">
-          <a href="#home">HOME</a>
-          <a href="#About">ABOUT</a>
-          <a href="#insights">FEATURED</a>
-          <a href="#Join">JOIN</a>
+        <a href="#section02">ABOUT</a>
+        <a href="#section04">JOIN</a>
+        <a href="#section05">FEATURED</a>
+        <a href="#section06">EXPLORE</a>
+      
+        
+              
         </nav>
         <p className="footer-copy">&copy; {new Date().getFullYear()} MetaNova AI. All rights reserved.</p>
       </div>
