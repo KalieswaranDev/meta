@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import '../Style/Section04.css';
-import bannerVideos from '../Asset/Banner01.mp4';
+import bannerVideo2 from '../Asset/Banner01.mp4';
 
 const VideoBanner = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const videoRef = useRef(null);
 
   useEffect(() => {
-    const video = document.querySelector('.video-bg');
+    const video = videoRef.current;
     if (video) {
       video.addEventListener('loadeddata', () => {
         setIsLoading(false);
@@ -15,19 +16,23 @@ const VideoBanner = () => {
   }, []);
 
   return (
-    <section className="video-banner" id='section04'>
+    <section className="video-banner" id="section04">
       {isLoading && <div className="loading">Loading...</div>}
+
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
-        className="video-bg"
+        className="background-video"
       >
-        <source src={bannerVideos} type="video/mp4" />
+        <source src={bannerVideo2} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
       <div className="video-overlay"></div>
+
       <div className="video-content">
         <p className="tagline">Welcome to the Future</p>
         <h1 className="main-heading">Experience the Next Generation</h1>

@@ -1,7 +1,7 @@
 .content-container {
   width: 100%;
   background: #000;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Signika', sans-serif;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -80,5 +80,6 @@ em {
   .paragraph-3,
   .paragraph-4 {
     font-size: 0.95rem;
+    line-height: 1.7;
   }
 }
