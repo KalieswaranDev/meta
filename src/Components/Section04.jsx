@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Style/Section04.css';
 import bannerVideos from '../Asset/Banner01.mp4';
 
 const VideoBanner = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const video = document.querySelector('.video-bg');
+    if (video) {
+      video.addEventListener('loadeddata', () => {
+        setIsLoading(false);
+      });
+    }
+  }, []);
+
   return (
     <section className="video-banner" id='section04'>
+      {isLoading && <div className="loading">Loading...</div>}
       <video
         autoPlay
         loop
@@ -15,16 +27,12 @@ const VideoBanner = () => {
         <source src={bannerVideos} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
-      
-
-      <div className="video-overlay" />
-
+      <div className="video-overlay"></div>
       <div className="video-content">
-        <p className="tagline">Innovate. Inspire. Impact.</p>
-        <h1 className="main-heading">Elevate Your Brand</h1>
-        <p className="sub-heading">Create a lasting digital presence that speaks for itself.</p>
-        <button className="cta-button">Get Started</button>
+        <p className="tagline">Welcome to the Future</p>
+        <h1 className="main-heading">Experience the Next Generation</h1>
+        <p className="sub-heading">Discover the possibilities of tomorrow, today</p>
+        <button className="cta-button">Learn More</button>
       </div>
     </section>
   );
